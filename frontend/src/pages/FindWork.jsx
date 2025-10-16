@@ -56,7 +56,7 @@ const FindWork = () => {
 export const jobLoader = async () => {
   try {
     const response = await axios.get(
-      "http://localhost:8080/api/v1/jobs/findJobs"
+      "http://localhost:8081/api/v1/jobs/findJobs"
     );
     return response.data;
   } catch (error) {

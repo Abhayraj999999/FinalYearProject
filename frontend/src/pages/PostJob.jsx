@@ -58,7 +58,7 @@ const PostJob = () => {
           // category is ignored unless you add it in JobDto + Job
         };
         const res = await axios.post(
-          "http://localhost:8080/api/v1/jobs/saveJob",
+          "http://localhost:8081/api/v1/jobs/saveJob",
           payload
         );
         console.log("submitted form data");

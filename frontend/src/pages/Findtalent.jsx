@@ -32,7 +32,7 @@ const FindTalent = () => {
 export const freelancerLoader = async () => {
   try {
     const response = await axios.get(
-      "http://localhost:8080/api/v1/freelancers/findFreelancers"
+      "http://localhost:8081/api/v1/freelancers/findFreelancers"
     );
     return response.data;
   } catch (error) {
